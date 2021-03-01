@@ -1,6 +1,3 @@
-const hello = require('./hello')
-hello()
-const random = require('./random')
-const max = Number(process.argv[2])
+const read = require('./read')
 
-console.log(random(max))
+read('.prettierrc')

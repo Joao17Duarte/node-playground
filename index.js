@@ -1,3 +1,4 @@
-const read = require('./read')
+const addStudent = require('./addStudent')
 
-read('.prettierrc')
+const [, , name, role] = process.argv
+addStudent({ name, role, php: false })
